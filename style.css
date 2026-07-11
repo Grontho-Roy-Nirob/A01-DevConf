@@ -274,4 +274,24 @@ nav ul a {
   font-weight: bold;
 }
 
+/* Footer Start*/
+.footer{
+    background:#0f172a;
+    padding:25px 0;
+    margin-top:80px;
+}
 
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo,.footer-logo span{
+    color:#fff;
+}
+
+.footer-content p{
+    color:#cbd5e1;
+    font-size:15px;
+}
