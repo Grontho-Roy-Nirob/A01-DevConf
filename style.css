@@ -21,7 +21,6 @@ body {
 }
 
 /* Common-button section*/
-
 .common-btn {
   background: #2563eb;
   color: white;
@@ -89,7 +88,6 @@ nav ul a {
 }
 
 /* Banner Start */
-
 .banner {
   background-image: url("./assets/banner.jpg");
   background-size: cover;
@@ -275,7 +273,6 @@ nav ul a {
 }
 
 /* Hackathon Start */
-
 .hackathon{
     padding:80px 0;
     text-align:center;
@@ -307,21 +304,57 @@ nav ul a {
 /* Footer Start*/
 .footer{
     background:#0f172a;
-    padding:25px 0;
+    padding:35px 0;
     margin-top:80px;
 }
 
-.footer-content{
+.footer-top{
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
 
-.footer-logo,.footer-logo span{
+.footer-logo,
+.footer-logo span{
     color:#fff;
 }
 
-.footer-content p{
+.footer-icon-parent{
+    display:flex;
+    gap:15px;
+}
+
+.footer-icon-parent span{
+    width:42px;
+    height:42px;
+    background:#334155;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.footer-icon-parent span:hover{
+    background:#6059eb;
+}
+
+.footer-icon-parent i{
+    color:#fff;
+    font-size:18px;
+}
+
+.footer-divider{
+    border:none;
+    height: 2px;
+    background:#334155;
+    margin:30px 0 20px;
+
+}
+
+.footer-copy{
     color:#cbd5e1;
     font-size:15px;
+    text-align:center;
 }
