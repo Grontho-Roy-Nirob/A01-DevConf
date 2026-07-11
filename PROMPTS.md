@@ -1,0 +1,1 @@
+## Generate a simple, beginner-friendly Hackathon section for my DevConf 2026 landing page using only HTML and CSS that matches the existing code design
